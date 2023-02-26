@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    margin-top: 50px;
+    font-family: 'Times New Roman';
+}
+
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 75px;
+    background-color: rgb(116, 53, 53);
+}
+
+header * {
+    display: inline;
+    height: 50px;
+    line-height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li a:hover{
+    text-transform: uppercase;
+    transition: cubic-bezier(solid);
+    transform-style: inherit;
+    color: rgb(18, 143, 184);
+}
+header li a{
+    text-decoration: none;
+    color: black;
+}
+header li{
+    margin-left: 20px;
+}
+
+
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#hero .profile-img{
+    width: 400px;
+    border-radius: 50px;
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1{
+    font-size: 5em; 
+}
+
+#href{
+    font-size: 2em;
+}
+
+section h2{
+    font-size: 5em;
+}
+
+section li{
+    font-size: 1.5em;
+}
+
+section br{
+    font-size: 1.5;
+}
+
+section p{
+    font-size: 1.5;
+}
+
+section h3{
+    font-size: 1.5em;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255, 255, 255, 0.484)), url('./home.jpeg');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/beach.jpg');
+}
+
+#experiences {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.632),rgba(255, 255, 255, 0.703)), url('./footr.avif');    
+}
+
+#hobbies {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('./homew.jpeg');    
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
+}
