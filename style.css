@@ -12,7 +12,7 @@ header{
     right: 0;
     height: 50px;
     line-height: 75px;
-    background-color: rgb(116, 53, 53);
+    background-color: rgb(158, 118, 118);
 }
 
 header * {
@@ -29,7 +29,7 @@ header li a:hover{
     text-transform: uppercase;
     transition: cubic-bezier(solid);
     transform-style: inherit;
-    color: rgb(18, 143, 184);
+    color: rgb(249, 249, 249);
 }
 header li a{
     text-decoration: none;
