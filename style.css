@@ -15,7 +15,7 @@ header{
     background-color: rgb(158, 118, 118);
 }
 
-header * {
+header *{
     display: inline;
     height: 50px;
     line-height: 50px;
@@ -99,7 +99,7 @@ header a{
 }
 
 #hero {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255, 255, 255, 0.484)), url('./home.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.428)), url('./home.jpeg');
 }
 
 #about {
@@ -116,4 +116,4 @@ header a{
 
 #contact {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
-}
+} 
