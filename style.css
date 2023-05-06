@@ -24,6 +24,7 @@ header{
     background-color: rgb(1, 1, 97);
 }
 
+<<<<<<< HEAD
 .profile-img{
     width: 4rem;
     height: 4rem;
@@ -43,6 +44,11 @@ header li a{
 
  header ul {
     display: flex;
+=======
+header *{
+    display: inline;
+    height: 50px;
+>>>>>>> 65e629fc97755af6265136d1bc5a005725dec8d7
     line-height: 50px;
     list-style-type: none;
 }
@@ -136,7 +142,11 @@ header a{
 }
 
 #hero {
+<<<<<<< HEAD
     background-image: linear-gradient(rgba(255, 238, 203, 0.972),rgba(255, 255, 255, 0.525)), url('./home.jpeg');
+=======
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.428)), url('./home.jpeg');
+>>>>>>> 65e629fc97755af6265136d1bc5a005725dec8d7
 }
 
 #about {
@@ -153,4 +163,4 @@ header a{
 
 #contact {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
-}
+} 
